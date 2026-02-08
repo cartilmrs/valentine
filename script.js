@@ -40,12 +40,12 @@ noBtn.addEventListener("mouseover", () => {
 
 // let yesScale = 1;
 
-// yesBtn.style.position = "relative"
+// yesBtn.style.position = "relative";
 // yesBtn.style.transformOrigin = "center center";
 // yesBtn.style.transition = "transform 0.3s ease";
 
 // noBtn.addEventListener("click", () => {
-//     yesScale += 2;
+//     yesScale += 0.2;
 
 //     if (yesBtn.style.position !== "fixed") {
 //         yesBtn.style.position = "fixed";
@@ -60,7 +60,7 @@ noBtn.addEventListener("mouseover", () => {
 // YES is clicked
 
 yesBtn.addEventListener("click", () => {
-    title.textContent = "Yippeeee I love you ikay!";
+    title.textContent = "Yehey I love you ikay!";
 
     catImg.src = "cat_dance.gif";
 
